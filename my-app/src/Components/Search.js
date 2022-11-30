@@ -4,7 +4,7 @@ import React from 'react'
 export default function Search() {
   return (
     <div>
-        <Input ></Input>
+        <Input placeholder='Busca'></Input>
     </div>
   )
 }

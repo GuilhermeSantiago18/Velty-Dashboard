@@ -5,17 +5,21 @@ import Filterdata from "../Components/Filterdata";
 import Search from "../Components/Search";
 import Pex from "../Images/Pex.jpg";
 import Containers from "../Components/Containers";
+import ContainersSecondLine from "../Components/ContainersSecondLine";
+import ContainersThirdLine from "../Components/ContainersThirdLine";
+import ContainersFooter from "../Components/ContainersFooter";
 
 export default function Home() {
   return (
     <Grid
-      h="800px"
+      bg='#89a4f6e6'
+      h="1600px"
       templateRows="repeat(5, 1fr)"
       templateColumns="repeat(12, 1fr)"
       gap={4}
     >
       <GridItem colSpan="2" rowSpan="5" bg='red'>
-        <Image src={Pex} alt="Dan Abramov" />
+        <Image marginLeft='34px' marginTop='34.75px' src={Pex} alt="Pex Image" />
       </GridItem>
       <GridItem colSpan="8" bg="papayawhip">
         <Header />
@@ -27,6 +31,15 @@ export default function Home() {
       </GridItem>
       <GridItem mt='20' colSpan="10">
         <Containers />
+      </GridItem>
+      <GridItem mt='2' colSpan="10">
+        <ContainersSecondLine />
+      </GridItem>
+      <GridItem mt='2' colSpan="10">
+        <ContainersThirdLine />
+      </GridItem>
+      <GridItem mt='2' marginBottom='400px' colSpan="10">
+        <ContainersFooter />
       </GridItem>
     </Grid>
   );
