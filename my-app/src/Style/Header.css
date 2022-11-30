@@ -1,35 +1,19 @@
-.main-title {
-  position: absolute;
-  width: 265px;
-  height: 42px;
-  left: 320px;
-  top: 75px;
-
+.title-dashboard {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   line-height: 42px;
-  /* identical to box height, or 124% */
-
   letter-spacing: -0.02em;
-
   color: #2b3674;
 }
-
-.second-title {
-  position: absolute;
-  width: 143px;
-  height: 24px;
-  left: 320px;
-  top: 49px;
-
+.subtitle-dashboard {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
-
-  color: #707eae;
+}
+.header {
+  display: flex;
 }

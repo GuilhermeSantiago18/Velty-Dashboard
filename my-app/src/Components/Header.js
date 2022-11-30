@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
-import '../Style/Header.css'
+import { Button, Input } from "@chakra-ui/react";
+import React from "react";
+import "../Style/Header.css";
+import { Text } from "@chakra-ui/react";
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div>
-        <p className='second-title'>Principal/Dashboard</p>
-        <h1 className='main-title'>Velty Dashboard</h1>
-      </div>
-    )
-  }
+export default function Header() {
+  return (
+    <div>
+      <Text className="subtitle-dashboard"fontSize="14px">Principal/Dashboard</Text>
+      <Text className="title-dashboard">Velty Dashboard</Text>
+    </div>
+  );
 }
