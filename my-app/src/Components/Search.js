@@ -1,12 +1,13 @@
-import { Center, Grid, Input } from "@chakra-ui/react";
+import { Center, Grid, Input, Image } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleExclamation,
   faMoon,
   faBell,
-  faUser,
 } from "@fortawesome/free-solid-svg-icons";
+import elipse5 from "../Images/Svg/elipse5.svg";
+
 
 
 export default function Search() {
@@ -14,7 +15,7 @@ export default function Search() {
   const [searchInfo, setSearchInfo] = useState('')
 
   const handleChange = ({target}) => {
-      setSearchInfo(target.value)
+    setSearchInfo(target.value)
   }
 
   return (
@@ -26,7 +27,7 @@ export default function Search() {
       maxWidth='422px'
       marginTop="20px"
       templateColumns="repeat(5, 1fr)"
-      gap={5}
+      gap={10}
     >
      
       <Input
@@ -45,10 +46,10 @@ export default function Search() {
       
       </Input>
       <Center gap={6}>
-      <FontAwesomeIcon icon={faBell} color="#A3AED0"/>
+      <FontAwesomeIcon icon={faBell} color="#A3AED0" marginLeft='20px'/>
       <FontAwesomeIcon icon={faMoon} fontSize="22px" color="#A3AED0" marginTop="10px" />
       <FontAwesomeIcon icon={faCircleExclamation} color="#A3AED0" marginTop="10px"/>
-      <FontAwesomeIcon icon={faUser} fontSize='30'/>
+      <Image src={elipse5} borderRadius='20px' width='100px' marginLeft='8px'/>
       
       </Center>
     </Grid>
