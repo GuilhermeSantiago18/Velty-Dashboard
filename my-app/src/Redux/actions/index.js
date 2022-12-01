@@ -1,9 +1,9 @@
-const GET_STATE = 'GET_STATE';
+const GET_SEARCH = 'GET_SEARCH';
 
-const getState = (payload) => ({
-  type: GET_STATE,
+const getSearch = (payload) => ({
+  type: GET_SEARCH,
   payload,
 });
 
 
-export { GET_STATE, getState };
+export { GET_SEARCH, getSearch };

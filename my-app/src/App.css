@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kdam+Thmor+Pro&display=swap');
 
 body {
     background: #F4F7FE;
-    font-family: 'DM Sans', sans-serif;
 }
 
+input::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    
+    letter-spacing: -0.02em;
+    
+    color: #8F9BBA; } 

@@ -18,7 +18,7 @@ export default function Home() {
       templateColumns="repeat(12, 1fr)"
       gap={4}
     >
-      <GridItem colSpan="2" rowSpan="5" bg="red">
+      <GridItem colSpan="2" rowSpan="5" bg="#FFFFFF">
         <Image
           marginLeft="34px"
           marginTop="34.75px"

@@ -1,4 +1,4 @@
-import { GET_STATE } from "../actions";
+import { GET_SEARCH} from "../actions";
 
 const INITIAL_STATE = {
   myState: '',
@@ -7,7 +7,7 @@ const INITIAL_STATE = {
 
 function homePage(state = INITIAL_STATE, action) {
     switch (action.type) {
-    case GET_STATE:
+    case GET_SEARCH:
       return {
         ...state,
         myState: action.payload,

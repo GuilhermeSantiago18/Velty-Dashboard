@@ -8,7 +8,7 @@ export default function Filterdata() {
       bg="#FFFFFF"
       borderRadius="30px"
       w="644px"
-      marginTop="20px"
+      marginTop="22px"
       templateColumns="repeat(3, 1fr)"
       gap={5}
     >
@@ -17,6 +17,7 @@ export default function Filterdata() {
         Filtrar por data
       </Text>
       <Input
+        className="input-filter-data"
         w="214px"
         borderRadius="49px"
         placeholder="Data inicial"
@@ -25,6 +26,7 @@ export default function Filterdata() {
         marginTop="10px"
       />
       <Input
+        className="input-filter-data"
         w="214px"
         borderRadius="49px"
         placeholder="Data final"
