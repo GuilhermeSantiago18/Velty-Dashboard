@@ -23,7 +23,7 @@ export default function Sidebar() {
       />
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
         <FontAwesomeIcon icon={faHouse} color='#4318FF'/>
-        <Text color='#2B3674'>Dashboard</Text>
+        <Text className="single-sidebar">Dashboard</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
         <FontAwesomeIcon icon={faCartShopping} color='#A3AED0'/>
@@ -34,8 +34,8 @@ export default function Sidebar() {
         <Text className="all-sidebar" >Relatórios</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
-      <FontAwesomeIcon icon={faChartBar} />
-        <Text className="all-sidebar" >Lojas Parceiras</Text>
+      <FontAwesomeIcon icon={faChartBar} color='#A3AED0' />
+        <Text className="all-sidebar">Lojas Parceiras</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
         <FontAwesomeIcon icon={faUser} color='#A3AED0'/>
