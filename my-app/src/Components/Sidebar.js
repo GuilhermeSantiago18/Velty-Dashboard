@@ -1,11 +1,11 @@
-import React from 'react'
-import Pex from '../Images/Pex.jpg'
+import { Grid, Image } from "@chakra-ui/react";
+import React from "react";
+import Pex from "../Images/Pex.jpg";
 
 export default function Sidebar() {
   return (
-    <div>
-        <img src={Pex} alt='PexImg'></img>
-
-    </div>
-  )
+    <Grid>
+      <Image marginLeft="34px" marginTop="34.75px" src={Pex} alt="Pex Image" />
+    </Grid>
+  );
 }

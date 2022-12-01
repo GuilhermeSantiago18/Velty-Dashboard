@@ -8,23 +8,20 @@ import Containers from "../Components/Containers";
 import ContainersSecondLine from "../Components/ContainersSecondLine";
 import ContainersThirdLine from "../Components/ContainersThirdLine";
 import ContainersFooter from "../Components/ContainersFooter";
+import Sidebar from "../Components/Sidebar";
 
 export default function Home() {
   return (
     <Grid
       bg='#F4F7FE'
+      padding='0 1% 0 0'
       h="1600px"
       templateRows="repeat(5, 1fr)"
       templateColumns="repeat(12, 1fr)"
       gap={4}
     >
       <GridItem colSpan="2" rowSpan="5" bg="#FFFFFF">
-        <Image
-          marginLeft="34px"
-          marginTop="34.75px"
-          src={Pex}
-          alt="Pex Image"
-        />
+        <Sidebar />
       </GridItem>
       <GridItem marginTop="49px" colSpan="8">
         <Header />

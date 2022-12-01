@@ -18,7 +18,7 @@ export default function Search() {
       height='61px'
       borderRadius="30px"
       w="100%"
-      marginRight='55px'
+      
       marginTop="20px"
       templateColumns="repeat(5, 1fr)"
       gap={5}
@@ -37,7 +37,7 @@ export default function Search() {
       >
       
       </Input>
-      <Center gap={7}>
+      <Center gap={5}>
       <FontAwesomeIcon icon={faBell} color="#A3AED0"/>
       <FontAwesomeIcon icon={faMoon} fontSize="22px" color="#A3AED0" marginTop="10px" />
       <FontAwesomeIcon icon={faCircleExclamation} color="#A3AED0" marginTop="10px"/>
