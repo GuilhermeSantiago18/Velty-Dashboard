@@ -5,7 +5,6 @@ import {
   faCircleExclamation,
   faMoon,
   faBell,
-  faMagnifyingGlass,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -28,7 +27,6 @@ export default function Search() {
       marginTop="20px"
       templateColumns="repeat(5, 1fr)"
       gap={5}
-      value={searchInfo}
     >
      
       <Input
@@ -41,6 +39,7 @@ export default function Search() {
         type="text"
         marginTop="10px"
         onChange={handleChange}
+        value={searchInfo}
         
       >
       

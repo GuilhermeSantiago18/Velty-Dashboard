@@ -1,4 +1,4 @@
-import { Center, Grid, Input, Text } from "@chakra-ui/react";
+import { Grid, Input, Text } from "@chakra-ui/react";
 import React from "react";
 
 export default function Filterdata() {
@@ -12,7 +12,7 @@ export default function Filterdata() {
       templateColumns="repeat(3, 1fr)"
       gap={5}
     >
-      <Text marginLeft="30px" marginTop="15px" className="filter-data">
+      <Text marginLeft="30px" marginTop="16px" className="filter-data">
         {" "}
         Filtrar por data
       </Text>
