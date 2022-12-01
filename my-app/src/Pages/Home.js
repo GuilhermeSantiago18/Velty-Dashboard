@@ -3,7 +3,6 @@ import React from "react";
 import Header from "../Components/Header";
 import Filterdata from "../Components/Filterdata";
 import Search from "../Components/Search";
-import Pex from "../Images/Pex.jpg";
 import Containers from "../Components/Containers";
 import ContainersSecondLine from "../Components/ContainersSecondLine";
 import ContainersThirdLine from "../Components/ContainersThirdLine";
@@ -23,11 +22,11 @@ export default function Home() {
       <GridItem colSpan="2" rowSpan="5" bg="#FFFFFF">
         <Sidebar />
       </GridItem>
-      <GridItem marginTop="49px" colSpan="8">
+      <GridItem marginTop="49px" colSpan="7">
         <Header />
         <Filterdata />
       </GridItem>
-      <GridItem colSpan="2" marginTop="55px">
+      <GridItem colSpan="3" marginTop="55px">
         <Center h="80px">
           <Search />
         </Center>
