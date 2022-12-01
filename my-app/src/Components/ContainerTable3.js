@@ -11,11 +11,11 @@ import {
 import React from "react";
 import "../Style/ContainerTable.css";
 
-export default function ContainerTable() {
+export default function ContainerTable3() {
   return (
     <>
-      <Text className="first-text-table">Planos</Text>
-      <Text className="second-text-table">123 planos ativos</Text>
+      <Text className="first-text-table">Tipos de plano</Text>
+      <Text className="second-text-table">2 tipos em uso</Text>
       <TableContainer marginTop="10px">
         <Table variant="simple" colorScheme="whiteAlpha">
           <Thead className="line-table">
@@ -25,25 +25,14 @@ export default function ContainerTable() {
               <Th>PREÇO</Th>
             </Tr>
           </Thead>
-
           <Tbody className="tbody">
             <Tr>
-              <Td>Estagiário</Td>
+              <Td>Construtoras</Td>
               <Td>312 Clientes</Td>
               <Td>123,90</Td>
             </Tr>
             <Tr>
-              <Td>Diretoria</Td>
-              <Td>312 Clientes</Td>
-              <Td>123,90</Td>
-            </Tr>
-            <Tr>
-              <Td>Geral</Td>
-              <Td>312 Clientes</Td>
-              <Td>123,90</Td>
-            </Tr>
-            <Tr>
-              <Td>Almoxarifado</Td>
+              <Td>Clientes finais</Td>
               <Td>312 Clientes</Td>
               <Td>123,90</Td>
             </Tr>
