@@ -1,4 +1,4 @@
-import { GET_SEARCH} from "../actions";
+import { GET_SEARCH } from "../actions";
 
 const INITIAL_STATE = {
   myState: '',

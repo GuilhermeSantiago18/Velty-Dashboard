@@ -10,18 +10,25 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 
-
 export default function Search() {
+
+  const [searchInfo, setSearchInfo] = useState('')
+
+  const handleChange = ({target}) => {
+      setSearchInfo(target.value)
+  }
+
   return (
     <Grid
       bg="#FFFFFF"
       height='61px'
       borderRadius="30px"
       w="100%"
-      
+      maxWidth='422px'
       marginTop="20px"
       templateColumns="repeat(5, 1fr)"
       gap={5}
+      value={searchInfo}
     >
      
       <Input
@@ -33,15 +40,16 @@ export default function Search() {
         size="md"
         type="text"
         marginTop="10px"
+        onChange={handleChange}
         
       >
       
       </Input>
-      <Center gap={5}>
+      <Center gap={6}>
       <FontAwesomeIcon icon={faBell} color="#A3AED0"/>
       <FontAwesomeIcon icon={faMoon} fontSize="22px" color="#A3AED0" marginTop="10px" />
       <FontAwesomeIcon icon={faCircleExclamation} color="#A3AED0" marginTop="10px"/>
-      <FontAwesomeIcon icon={faUser} />
+      <FontAwesomeIcon icon={faUser} fontSize='30'/>
       
       </Center>
     </Grid>
