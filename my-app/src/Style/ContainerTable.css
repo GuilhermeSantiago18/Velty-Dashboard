@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kdam+Thmor+Pro&display=swap");
+
+.line-table > th {
+  width: 45px;
+  height: 24px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 171% */
+
+  letter-spacing: -0.02em;
+
+  color: #a3aed0;
+}
+
+.line-table {
+  border-bottom: 2px solid #e9edf7;
+}
+
+.tbody {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #2b3674;
+}
+.first-text-table {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #2b3674;
+}
+.second-text-table {
+  padding: 0;
+  margin-left: 25px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: -0.02em;
+
+  color: #a3aed0;
+}
