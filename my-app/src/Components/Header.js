@@ -1,4 +1,3 @@
-import { Button, Input } from "@chakra-ui/react";
 import React from "react";
 import "../Style/Header.css";
 import { Text } from "@chakra-ui/react";
