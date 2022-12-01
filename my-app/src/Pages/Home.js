@@ -1,4 +1,4 @@
-import { Grid, GridItem, Center, Image } from "@chakra-ui/react";
+import { Grid, GridItem, Center } from "@chakra-ui/react";
 import React from "react";
 import Header from "../Components/Header";
 import Filterdata from "../Components/Filterdata";
