@@ -20,9 +20,49 @@ export default function ContainersThirdLine() {
         <Text className="text-container-third">Cotações Realizadas</Text>
         <Text className="number-final-third">+ 15,3% (+223)</Text>
         </GridItem>
-    <GridItem borderRadius="20px" bg="#FFFFFF" />
-    <GridItem borderRadius="20px" bg="#FFFFFF" />
-    <GridItem borderRadius="20px" bg="#FFFFFF" />
+    
+        <GridItem borderRadius="20px" bg="#FFFFFF">
+        <div className="containers-third" borderRadius='50%'>
+          <Image
+            src={Vector4}
+            width="16px"
+            marginLeft="20px"
+            position="absolute"
+            marginTop='13px'
+          ></Image>
+        </div>
+        <Text className="text-number-container-third">R$ 212.012</Text>
+        <Text className="text-container-third">Vendas finalizadas</Text>
+        <Text className="number-final-third">+ 15,3% (+223)</Text>
+        </GridItem>
+        <GridItem borderRadius="20px" bg="#FFFFFF">
+        <div className="containers-third" borderRadius='50%'>
+          <Image
+            src={Vector4}
+            width="16px"
+            marginLeft="20px"
+            position="absolute"
+            marginTop='13px'
+          ></Image>
+        </div>
+        <Text className="text-number-container-third">R$ 42.021</Text>
+        <Text className="text-container-third">Cotações não concluídas</Text>
+        <Text className="number-final-third">+ 15,3% (+223)</Text>
+        </GridItem>
+        <GridItem borderRadius="20px" bg="#FFFFFF">
+        <div className="containers-third" borderRadius='50%'>
+          <Image
+            src={Vector4}
+            width="16px"
+            marginLeft="20px"
+            position="absolute"
+            marginTop='13px'
+          ></Image>
+        </div>
+        <Text className="text-number-container-third">R$ 3.122</Text>
+        <Text className="text-container-third">Cotações não respondidas</Text>
+        <Text className="number-final-third">+ 15,3% (+223)</Text>
+        </GridItem>
   </Grid>
   )
 }
