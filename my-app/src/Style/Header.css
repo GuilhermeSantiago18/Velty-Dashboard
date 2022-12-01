@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kdam+Thmor+Pro&display=swap');
 
 .title-dashboard {
+  margin-left: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -9,6 +10,7 @@
   color: #2b3674;
 }
 .subtitle-dashboard {
+  margin-left: 20px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
