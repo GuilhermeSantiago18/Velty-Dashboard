@@ -1,1 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kdam+Thmor+Pro&display=swap");
+
+.text {
+  margin-left: 16px;
+  margin-top: 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #a3aed0;
+}
+
+.number {
+  margin-left: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  letter-spacing: -0.02em;
+
+  color: #2b3674;
+}
+
+.numberFinal {
+  margin-left: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+
+  letter-spacing: -0.02em;
+
+  color: #05cd99;
+}
