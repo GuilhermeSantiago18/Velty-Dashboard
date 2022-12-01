@@ -5,7 +5,7 @@ import { Text } from "@chakra-ui/react";
 export default function Header() {
   return (
     <div>
-      <Text className="subtitle-dashboard" color='#707EAE' fontSize="14px">Principal/Dashboard</Text>
+      <Text className="subtitle-dashboard">Principal/Dashboard</Text>
       <Text className="title-dashboard">Velty Dashboard</Text>
     </div>
   );

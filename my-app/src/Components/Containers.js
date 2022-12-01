@@ -15,7 +15,7 @@ export default function Containers() {
             width="16px"
             marginLeft="20px"
             position="absolute"
-            marginTop='13px'
+            marginTop="13px"
           ></Image>
         </div>
         <Text className="text-number-container">R$ 312.321,00</Text>
@@ -28,12 +28,11 @@ export default function Containers() {
       <GridItem borderRadius="20px" bg="#7A85EC">
         <div className="containers" borderRadius="50%">
           <Image
-            marginTop='13px'
+            marginTop="13px"
             src={Vector2}
             width="16px"
             marginLeft="20px"
-            position='absolute'
-
+            position="absolute"
           ></Image>
         </div>
         <Text className="text-number-container">R$ 74.421,00</Text>
@@ -50,7 +49,7 @@ export default function Containers() {
             width="16px"
             marginLeft="20px"
             position="absolute"
-            marginTop='13px'
+            marginTop="13px"
           ></Image>
         </div>
         <Text className="text-number-container">R$ 3,12</Text>
@@ -59,7 +58,6 @@ export default function Containers() {
         <Text className="second-number">R$ 12,40</Text>
         <Text className="second-text">Média por cliente</Text>
       </GridItem>
-
     </Grid>
   );
 }
