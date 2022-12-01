@@ -6,9 +6,10 @@ import {
   faHouse,
   faCartShopping,
   faSquarePollVertical,
-  faChartGantt,
   faUser,
+  faChartBar
 } from "@fortawesome/free-solid-svg-icons";
+import '../Style/Sidebar.css'
 
 export default function Sidebar() {
   return (
@@ -21,24 +22,24 @@ export default function Sidebar() {
         
       />
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
-        <FontAwesomeIcon icon={faHouse} />
-        <Text>Dashboard</Text>
+        <FontAwesomeIcon icon={faHouse} color='#4318FF'/>
+        <Text color='#2B3674'>Dashboard</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
-        <FontAwesomeIcon icon={faCartShopping} />
-        <Text>Vendas</Text>
+        <FontAwesomeIcon icon={faCartShopping} color='#A3AED0'/>
+        <Text className="all-sidebar" >Vendas</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
-        <FontAwesomeIcon icon={faSquarePollVertical} />
-        <Text>Relatórios</Text>
+        <FontAwesomeIcon icon={faSquarePollVertical} color='#A3AED0'/>
+        <Text className="all-sidebar" >Relatórios</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
-        <FontAwesomeIcon icon={faChartGantt} />
-        <Text>Lojas Parceiras</Text>
+      <FontAwesomeIcon icon={faChartBar} />
+        <Text className="all-sidebar" >Lojas Parceiras</Text>
       </GridItem>
       <GridItem marginRight="34px" gap={4} rowSpan={2} display='flex' marginTop='50px' marginLeft='40px'>
-        <FontAwesomeIcon icon={faUser} />
-        <Text>Clientes</Text>
+        <FontAwesomeIcon icon={faUser} color='#A3AED0'/>
+        <Text className="all-sidebar" >Clientes</Text>
       </GridItem>
     </Grid>
   );
