@@ -1,6 +1,5 @@
 import { Grid, Input, Text } from "@chakra-ui/react";
 import React from "react";
-import elipse5 from '../Images/Svg/elipse5.svg'
 
 export default function Filterdata() {
   return (
