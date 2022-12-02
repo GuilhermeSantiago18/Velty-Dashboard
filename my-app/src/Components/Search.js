@@ -20,6 +20,7 @@ export default function Search() {
 
   return (
     <Grid
+      display='flex'
       bg="#FFFFFF"
       height='61px'
       borderRadius="30px"
@@ -43,7 +44,7 @@ export default function Search() {
         value={searchInfo}
         
       />
-      <Center gap={6}>
+      <Center gap={6} marginRight='18px'>
       <FontAwesomeIcon icon={faBell} color="#A3AED0" marginLeft='20px'/>
       <FontAwesomeIcon icon={faMoon} fontSize="22px" color="#A3AED0" marginTop="10px" />
       <FontAwesomeIcon icon={faCircleExclamation} color="#A3AED0" marginTop="10px"/>
