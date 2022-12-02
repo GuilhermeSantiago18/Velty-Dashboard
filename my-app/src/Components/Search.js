@@ -35,10 +35,12 @@ export default function Search() {
         className="input-search"
         marginLeft='10px'
         placeholder='Busca'
+        paddingLeft='35px'
         w="214px"
         borderRadius="49px"
         size="md"
         type="text"
+        id="search"
         marginTop="10px"
         onChange={handleChange}
         value={searchInfo}
