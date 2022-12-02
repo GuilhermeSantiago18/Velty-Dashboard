@@ -18,6 +18,7 @@ export default function Home() {
       templateRows="repeat(5, 1fr)"
       templateColumns="repeat(12, 1fr)"
       gap={4}
+      width='100%'
     >
       <GridItem colSpan="2" rowSpan="5" bg="#FFFFFF">
         <Sidebar />

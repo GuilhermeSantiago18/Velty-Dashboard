@@ -42,14 +42,12 @@ export default function Search() {
         onChange={handleChange}
         value={searchInfo}
         
-      >
-      
-      </Input>
+      />
       <Center gap={6}>
       <FontAwesomeIcon icon={faBell} color="#A3AED0" marginLeft='20px'/>
       <FontAwesomeIcon icon={faMoon} fontSize="22px" color="#A3AED0" marginTop="10px" />
       <FontAwesomeIcon icon={faCircleExclamation} color="#A3AED0" marginTop="10px"/>
-      <Image src={elipse5} borderRadius='20px' width='100px' marginLeft='8px'/>
+      <Image src={elipse5} borderRadius='20px' width='100%' maxWidth='50px' marginLeft='8px'/>
       
       </Center>
     </Grid>

@@ -19,7 +19,7 @@ export default function Containers() {
           ></Image>
         </div>
         <Text className="text-number-container">R$ 312.321,00</Text>
-        <Text className="text-container">Receita Total</Text>
+        <Text className="text-container">Receita total</Text>
         <div className="line-container" />
         <Text className="second-number">R$ 67,20</Text>
         <Text className="second-text">Média por cliente</Text>
@@ -36,7 +36,7 @@ export default function Containers() {
           ></Image>
         </div>
         <Text className="text-number-container">R$ 74.421,00</Text>
-        <Text className="text-container">Lucro Total</Text>
+        <Text className="text-container">Lucro total</Text>
         <div className="line-container" />
         <Text className="second-number">R$ 42,30</Text>
         <Text className="second-text">Média por cliente</Text>
