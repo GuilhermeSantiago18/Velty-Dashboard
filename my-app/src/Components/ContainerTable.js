@@ -16,7 +16,7 @@ export default function ContainerTable() {
     <>
       <Text className="first-text-table">Planos</Text>
       <Text className="second-text-table">123 planos ativos</Text>
-      <TableContainer marginTop="10px" width='100%'>
+      <TableContainer marginTop="10px" width="100%">
         <Table variant="simple" colorScheme="whiteAlpha">
           <Thead className="line-table">
             <Tr className="line-table">

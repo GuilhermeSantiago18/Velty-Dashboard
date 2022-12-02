@@ -20,9 +20,9 @@ export default function Sidebar() {
         rowSpan={2}
         display="flex"
         marginTop="50px"
-        alignItems='center'
+        alignItems="center"
         marginLeft="40px"
-        padding='0'
+        padding="0"
       >
         <FontAwesomeIcon icon={faHouse} color="#4318FF" />
         <Text className="single-sidebar">Dashboard</Text>
@@ -31,7 +31,7 @@ export default function Sidebar() {
         gap={4}
         rowSpan={2}
         display="flex"
-        alignItems='center'
+        alignItems="center"
         marginTop="50px"
         marginLeft="40px"
       >
@@ -42,7 +42,7 @@ export default function Sidebar() {
         gap={4}
         rowSpan={2}
         display="flex"
-        alignItems='center'
+        alignItems="center"
         marginTop="50px"
         marginLeft="40px"
       >
@@ -53,7 +53,7 @@ export default function Sidebar() {
         gap={4}
         rowSpan={2}
         display="flex"
-        alignItems='center'
+        alignItems="center"
         marginTop="50px"
         marginLeft="40px"
       >
@@ -63,7 +63,7 @@ export default function Sidebar() {
       <GridItem
         gap={4}
         rowSpan={2}
-        alignItems='center'
+        alignItems="center"
         display="flex"
         marginTop="50px"
         marginLeft="40px"
