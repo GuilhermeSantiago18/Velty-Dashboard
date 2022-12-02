@@ -20,7 +20,7 @@ export default function Filterdata() {
         className="input-filter-data"
         w="214px"
         borderRadius="49px"
-        placeholder='Data inicial'
+        placeholder="Data inicial"
         id="data-inicial"
         size="md"
         type="text"
@@ -36,7 +36,6 @@ export default function Filterdata() {
         type="text"
         marginTop="10px"
         marginRight="16px"
-      
       />
     </Grid>
   );
