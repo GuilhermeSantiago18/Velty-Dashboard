@@ -2,6 +2,7 @@
 
 .title-dashboard {
   margin-left: 20px;
+  font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -39,7 +40,7 @@ input.input-filter-data {
   padding-left: 40px;
 }
 #data-inicial {
-  background: url("/home/guilhermesantiago/Trybe-exercicios/Velty-Dashboard/my-app/src/Images/Svg/Vectordate.svg")
+  background: url("../Images/jpg/newvector.svg")
     #fff no-repeat;
   background-size: 12px;
   background-position: 16px 12px;
@@ -56,7 +57,7 @@ input.input-filter-data {
   background-color: #f4f7fe;
 }
 #search {
-  background: url("/home/guilhermesantiago/Trybe-exercicios/Velty-Dashboard/my-app/src/Images/search.jpg")
+  background: url("../Images//jpg/newsearch1.jpg")
     #fff no-repeat;
   background-size: 20px;
   background-position: 10px 12px;

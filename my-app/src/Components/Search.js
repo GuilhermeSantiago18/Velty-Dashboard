@@ -1,5 +1,5 @@
 import { Center, Grid, Input, Image } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleExclamation,
@@ -7,12 +7,15 @@ import {
   faBell,
 } from "@fortawesome/free-solid-svg-icons";
 import elipse5 from "../Images/Svg/elipse5.svg";
+import { connect } from "react-redux";
+import { getSearch } from "../Redux/actions";
+import { useDispatch } from "react-redux";
 
-export default function Search() {
-  const [searchInfo, setSearchInfo] = useState("");
+function Search({ searchInfo }) {
+  const dispatch = useDispatch();
 
   const handleChange = ({ target }) => {
-    setSearchInfo(target.value);
+    dispatch(getSearch(target.value));
   };
 
   return (
@@ -60,8 +63,14 @@ export default function Search() {
           width="100%"
           maxWidth="50px"
           marginLeft="8px"
+          alt="profile"
         />
       </Center>
     </Grid>
   );
 }
+const mapStateToProps = ({ myReducer }) => ({
+  searchInfo: myReducer.myState,
+});
+
+export default connect(mapStateToProps)(Search);
