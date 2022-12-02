@@ -17,7 +17,7 @@ export default function ContainersThirdLine() {
           ></Image>
         </div>
         <Text className="text-number-container-third">R$ 312.321</Text>
-        <Text className="text-container-third">Cotações Realizadas</Text>
+        <Text className="text-container-third">Cotações realizadas</Text>
         <Text className="number-final-third">+ 15,3% (+223)</Text>
         </GridItem>
     

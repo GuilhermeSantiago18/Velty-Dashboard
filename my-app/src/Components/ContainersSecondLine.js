@@ -6,17 +6,17 @@ export default function ContainersSecondLine() {
   return (
     <Grid h="95px" templateColumns="repeat(6, 1fr)" gap={4}>
       <GridItem borderRadius="20px" bg="#FFFFFF" >
-        <Text className="text">Clientes Ativos</Text>
+        <Text className="text">Clientes ativos</Text>
         <Text className="number">3.312</Text>
         <Text className="numberFinal">+ 2,6% (+12)</Text>
       </GridItem>
       <GridItem borderRadius="20px" bg="#FFFFFF" >
-        <Text className="text">Novos Clientes</Text>
+        <Text className="text">Novos clientes</Text>
         <Text className="number">12</Text>
         <Text className="numberFinal">+ 15,3% (+2)</Text>
       </GridItem>
       <GridItem borderRadius="20px" bg="#FFFFFF" >
-        <Text className="text">Clientes Adicionados</Text>
+        <Text className="text">Clientes adicionados</Text>
         <Text className="number">42</Text>
         <Text className="numberFinal">+ 42,6% (+8)</Text>
       </GridItem>
