@@ -1,20 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Kdam+Thmor+Pro&display=swap");
 
 .all-sidebar {
-    font-family: 'DM Sans';
+  font-family: "DM Sans";
 
-font-weight: 500;
-font-size: 16px;
-letter-spacing: -0.02em;
-color: #A3AED0;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #a3aed0;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
 }
 
 .single-sidebar {
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-letter-spacing: -0.02em;
-
-color: #2B3674;
+  width: 100%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  height: 40px;
+  color: #2b3674;
+  display: flex;
+  align-items: center;
+}
+.single-sidebar:hover {
+  border-right: 4px solid #4318FF;
 }
