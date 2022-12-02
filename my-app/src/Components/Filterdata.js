@@ -20,7 +20,6 @@ export default function Filterdata() {
       <Input
         className="input-filter-data"
         w="214px"
-        paddingLeft='40px'
         borderRadius="49px"
         placeholder='Data inicial'
         id="data-inicial"

@@ -6,7 +6,7 @@ import ContainerTable3 from "./ContainerTable3";
 
 export default function ContainersFooter() {
   return (
-    <Grid h="370px" templateColumns="repeat(3, 1fr)" gap={4}>
+    <Grid h="370px" width='100%' templateColumns="repeat(3, 1fr)" gap={4}>
       <GridItem borderRadius="20px" bg="#FFFFFF">
         <ContainerTable />
       </GridItem>
