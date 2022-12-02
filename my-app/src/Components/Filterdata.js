@@ -1,5 +1,6 @@
 import { Grid, Input, Text } from "@chakra-ui/react";
 import React from "react";
+import elipse5 from '../Images/Svg/elipse5.svg'
 
 export default function Filterdata() {
   return (
@@ -20,7 +21,8 @@ export default function Filterdata() {
         className="input-filter-data"
         w="214px"
         borderRadius="49px"
-        placeholder="Data inicial"
+        placeholder='Data inicial'
+        id="data-inicial"
         size="md"
         type="text"
         marginTop="10px"
@@ -28,12 +30,14 @@ export default function Filterdata() {
       <Input
         className="input-filter-data"
         w="214px"
+        id="data-inicial"
         borderRadius="49px"
         placeholder="Data final"
         size="md"
         type="text"
         marginTop="10px"
         marginRight="16px"
+      
       />
     </Grid>
   );

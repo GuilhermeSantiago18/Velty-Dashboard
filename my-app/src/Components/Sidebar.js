@@ -16,21 +16,22 @@ export default function Sidebar() {
     <Grid templateRows="repeat(30, 1fr)" height="1152px">
       <Image marginLeft="34px" marginTop="34.75px" src={Pex} alt="Pex Image" />
       <GridItem
-        marginRight="34px"
         gap={4}
         rowSpan={2}
         display="flex"
         marginTop="50px"
+        alignItems='center'
         marginLeft="40px"
+        padding='0'
       >
         <FontAwesomeIcon icon={faHouse} color="#4318FF" />
         <Text className="single-sidebar">Dashboard</Text>
       </GridItem>
       <GridItem
-        marginRight="34px"
         gap={4}
         rowSpan={2}
         display="flex"
+        alignItems='center'
         marginTop="50px"
         marginLeft="40px"
       >
@@ -38,10 +39,10 @@ export default function Sidebar() {
         <Text className="all-sidebar">Vendas</Text>
       </GridItem>
       <GridItem
-        marginRight="34px"
         gap={4}
         rowSpan={2}
         display="flex"
+        alignItems='center'
         marginTop="50px"
         marginLeft="40px"
       >
@@ -49,10 +50,10 @@ export default function Sidebar() {
         <Text className="all-sidebar">Relatórios</Text>
       </GridItem>
       <GridItem
-        marginRight="34px"
         gap={4}
         rowSpan={2}
         display="flex"
+        alignItems='center'
         marginTop="50px"
         marginLeft="40px"
       >
@@ -60,9 +61,9 @@ export default function Sidebar() {
         <Text className="all-sidebar">Lojas Parceiras</Text>
       </GridItem>
       <GridItem
-        marginRight="34px"
         gap={4}
         rowSpan={2}
+        alignItems='center'
         display="flex"
         marginTop="50px"
         marginLeft="40px"

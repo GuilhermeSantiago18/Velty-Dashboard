@@ -20,6 +20,7 @@ export default function Search() {
 
   return (
     <Grid
+      display='flex'
       bg="#FFFFFF"
       height='61px'
       borderRadius="30px"
@@ -34,22 +35,22 @@ export default function Search() {
         className="input-search"
         marginLeft='10px'
         placeholder='Busca'
+        paddingLeft='35px'
         w="214px"
         borderRadius="49px"
         size="md"
         type="text"
+        id="search"
         marginTop="10px"
         onChange={handleChange}
         value={searchInfo}
         
-      >
-      
-      </Input>
-      <Center gap={6}>
+      />
+      <Center gap={6} marginRight='18px'>
       <FontAwesomeIcon icon={faBell} color="#A3AED0" marginLeft='20px'/>
       <FontAwesomeIcon icon={faMoon} fontSize="22px" color="#A3AED0" marginTop="10px" />
       <FontAwesomeIcon icon={faCircleExclamation} color="#A3AED0" marginTop="10px"/>
-      <Image src={elipse5} borderRadius='20px' width='100px' marginLeft='8px'/>
+      <Image src={elipse5} borderRadius='20px' width='100%' maxWidth='50px' marginLeft='8px'/>
       
       </Center>
     </Grid>
