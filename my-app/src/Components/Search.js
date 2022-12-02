@@ -63,6 +63,7 @@ function Search({ searchInfo }) {
           width="100%"
           maxWidth="50px"
           marginLeft="8px"
+          alt="profile"
         />
       </Center>
     </Grid>
